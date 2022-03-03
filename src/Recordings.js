@@ -3,6 +3,9 @@ import { Grid, IconButton, List, ListItem, ListItemText, Paper, Typography } fro
 import recordings from "./recordings.json";
 import moment from "moment";
 import { OpenInNew } from "@mui/icons-material";
+import Navigation from "./Navigation";
+import Footer from "./Footer";
+
 
 const Recordings = () => {
     const getRecordingDate = (unix) => {
@@ -10,6 +13,8 @@ const Recordings = () => {
     };
 
     return (
+        <>
+        <Navigation />
         <section id="recordings">
             <Paper sx={{ p: 5 }}>
                 <Grid
@@ -59,6 +64,8 @@ const Recordings = () => {
                 </Grid>
             </Paper>
         </section>
+        <Footer />
+        </>
     );
 };
 
