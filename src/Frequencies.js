@@ -32,11 +32,7 @@ const Frequencies = () => {
         <>
         <Navigation />
         <div className="frequencies">
-            {/* List all frequencies without using grid */}
-            {/* if active is true bold text */}
-            {/* if active is false normal text */}
             {frequencies.map((freq, index) => (
-                // use handleclick to set active state
                 <ListItem key={index} button onClick={() => handleClick(index)}>
                     <ListItemText primary={freq.active ? <Typography variant="h6" color="primary">{freq.freq}</Typography> : <Typography variant="h6">{freq.freq}</Typography>} />
                 </ListItem>
