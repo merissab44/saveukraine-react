@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.js": "/saveukraine-react/static/js/main.5f8f2347.js",
-    "static/js/787.b08337b8.chunk.js": "/saveukraine-react/static/js/787.b08337b8.chunk.js",
+    "main.css": "/saveukraine-react/static/css/main.8270c157.css",
+    "main.js": "/saveukraine-react/static/js/main.6a57756c.js",
+    "static/media/Ukraineheader.jpeg": "/saveukraine-react/static/media/Ukraineheader.3b619c803d079d18af96.jpeg",
     "index.html": "/saveukraine-react/index.html",
-    "main.5f8f2347.js.map": "/saveukraine-react/static/js/main.5f8f2347.js.map",
-    "787.b08337b8.chunk.js.map": "/saveukraine-react/static/js/787.b08337b8.chunk.js.map"
+    "main.8270c157.css.map": "/saveukraine-react/static/css/main.8270c157.css.map",
+    "main.6a57756c.js.map": "/saveukraine-react/static/js/main.6a57756c.js.map"
   },
   "entrypoints": [
-    "static/js/main.5f8f2347.js"
+    "static/css/main.8270c157.css",
+    "static/js/main.6a57756c.js"
   ]
 }
