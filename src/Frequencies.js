@@ -1,7 +1,8 @@
-import React from "react";
+import React, {useState} from "react";
 import { Grid, List, ListItem, ListItemText, Paper, Typography } from "@mui/material";
 import Navigation from "./Navigation";
 import Footer from "./Footer";
+import { fontWeight } from "@mui/system";
 
 
 const Frequencies = () => {
@@ -22,43 +23,25 @@ const Frequencies = () => {
         { freq: "11318 KHZ LRA TU-95 STAT", active: false },
     ];
 
+    const [active, setActive] = useState(frequencies[0].active);
+    // set active state
+    const handleClick = (index) => {
+        setActive(frequencies[index].active);
+    };
     return (
         <>
         <Navigation />
-        <section id="frequencies">
-            <Paper sx={{ p: 5 }}>
-                <Grid
-                    container
-                    direction="column"
-                    justifyContent="center"
-                    alignItems="center"
-                    spacing={2}
-                >
-                    <Grid item>
-                        <Typography variant="h4">
-                            Frequencies
-                        </Typography>
-                    </Grid>
-                    <Grid item>
-                        <Typography variant="h5">
-                            Known Russian Military Frequencies
-                        </Typography>
-                        <List>
-                            {frequencies.map((e, i) => {
-                                return (
-                                    <ListItem key={`frequency-${i}`}>
-                                        <ListItemText
-                                            primary={e.freq}
-                                            secondary={e.active ? "Active" : null}
-                                        />
-                                    </ListItem>
-                                );
-                            })}
-                        </List>
-                    </Grid>
-                </Grid>
-            </Paper>
-        </section>
+        <div className="frequencies">
+            {/* List all frequencies without using grid */}
+            {/* if active is true bold text */}
+            {/* if active is false normal text */}
+            {frequencies.map((freq, index) => (
+                // use handleclick to set active state
+                <ListItem key={index} button onClick={() => handleClick(index)}>
+                    <ListItemText primary={freq.active ? <Typography variant="h6" color="primary">{freq.freq}</Typography> : <Typography variant="h6">{freq.freq}</Typography>} />
+                </ListItem>
+            ))}
+        </div>
         <Footer />
         </>
     );
