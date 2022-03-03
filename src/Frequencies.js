@@ -1,8 +1,8 @@
 import React, {useState} from "react";
-import { Grid, List, ListItem, ListItemText, Paper, Typography } from "@mui/material";
+import {ListItem, ListItemText, Paper, Typography } from "@mui/material";
 import Navigation from "./Navigation";
 import Footer from "./Footer";
-import { fontWeight } from "@mui/system";
+import "./Frequencies.css";
 
 
 const Frequencies = () => {
@@ -31,6 +31,9 @@ const Frequencies = () => {
     return (
         <>
         <Navigation />
+        <div className="header-text">
+                <h1>Frequencies</h1>
+        </div>
         <div className="frequencies">
             {frequencies.map((freq, index) => (
                 <ListItem key={index} button onClick={() => handleClick(index)}>

@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    font-size: 34px;
+}
+.header-text{
+    text-align: center;
+}
+.frequencies{
+    margin-left: 20%;
+    -webkit-column-count: 2;  /* Chrome/Opera, Safari */
+    -moz-column-count: 2; /* Mozilla Firefox */
+    column-count: 2;
+}

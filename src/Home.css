@@ -29,3 +29,16 @@ li{
     text-decoration: none;
     text-align: left;
 }
+.header-title {
+    margin: 0;
+    height: 500px;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.5);
+}
+.header-name{
+    text-align: center;
+    padding-top: 15%;
+    font-size: 48px;
+    margin: 0;
+}
