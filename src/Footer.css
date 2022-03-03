@@ -2,6 +2,9 @@
     background-color: #3A3B3C;
     padding-top: 20px;
     height: 250px;
+    left:0;
+    bottom:0;
+    right:0;
 }
 h4{
     text-align: center;

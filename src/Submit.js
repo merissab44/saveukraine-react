@@ -1,8 +1,11 @@
 import { Grid, Link, Paper, Typography } from "@mui/material";
 import React from "react";
+import Navigation from "./Navigation";
 
 const Submit = () => {
     return (
+        <>
+        <Navigation />
         <section id="submit">
             <Paper sx={{ p: 5 }}>
                 <Grid container
@@ -29,6 +32,7 @@ const Submit = () => {
                 </Grid>
             </Paper>
         </section>
+        </>
     );
 };
 

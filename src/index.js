@@ -5,6 +5,7 @@ import App from "./App";
 import Frequencies from "./Frequencies";
 import Tuners from "./Tuners";
 import Recordings from "./Recordings";
+import Submit from "./Submit";
 
 ReactDOM.render(
     <Router>
@@ -13,6 +14,7 @@ ReactDOM.render(
             <Route path="/frequencies" element={<Frequencies />} />
             <Route path="/tuners" element={<Tuners />} />
             <Route path="/Recordings" element={<Recordings />} />
+            <Route path="/submit" element={<Submit />} />
         </Routes>
     </Router>,
     document.getElementById("root")

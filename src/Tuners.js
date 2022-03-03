@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, Link, Paper, Typography } from "@mui/material";
 import Navigation from "./Navigation";
-import Footer from "./Footer";
+import './Tuners.css';
 
 const Tuners = () => {
     const tuners = [
@@ -50,7 +50,6 @@ const Tuners = () => {
                 </Grid>
             </Paper>
         </section>
-        <Footer />
         </>
     );
 };

@@ -12,10 +12,10 @@ return (
     <Navigation />
     <div className="header">
       <div className='header-title'>
-        <h1 className='header-name'> Russian War Chatter </h1>
+        <h1 className='header-name'> Russian Military War Chatter </h1>
       </div>
     </div>
-    <h1 className='title'> How to use this site</h1>
+    {/* <h1 className='title'> How to use this site</h1> */}
     <h2 className='directions'>
     <ul>
       <li>
