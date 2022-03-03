@@ -30,7 +30,7 @@ return (
       </li>
       <br/>
       <li>
-        Lastly, Join our Discord Server! https://discord.gg/K49eBFUC
+        Lastly, Join our Discord Server today! https://discord.gg/K49eBFUC
       </li>
     </ul>
     </h2>
