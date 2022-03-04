@@ -1,5 +1,40 @@
 {
+    "Frequency 3809":[
+        {
+            "title": "Recordings over Freq 3809",
+            "time": 1646174346,
+            "link": "https://archive.org/details/websdr_recording_start_2022-03-01T22_27_54Z_3809.0kHz"
+        }
+    ],
+    "Frequency 9741":[
+        {
+            "title": "Recordings over Freq 9741",
+            "time": 1646124215,
+            "link": "https://archive.org/details/websdr_recording_start_2022-03-01T08_23_32Z_9741.0kHz"
+        }
+    ],
+    "Frequency 4649":[
+        {
+            "title": "Recordings over Freq 4649-5",
+            "time": 1645819200,
+            "link": "https://archive.org/details/websdr_recording_start_2022-02-25T20_53_30Z_4649.5kHz"
+        }
+    ],
+    "Frequency 4183":[
+        {
+            "title": "Recordings over Freq 4183",
+            "time": 1646055015,
+            "link": "https://archive.org/details/websdr_recording_start_2022-03-01T00_57_28Z_4813.0kHz"
+        }
+    ],
+    
     "Frequency 7933": [
+        {
+            "title": "New Buran Unit, Russian Communications",
+            "time": 1645993840,
+            "link": "https://archive.org/details/websdr_recording_start_2022-02-28T02_14_53Z_7933.0kHz"
+        },
+
         {
             "title": "Buran possibly dying",
             "time": 1646000700,
@@ -47,3 +82,4 @@
         }
     ]
 }
+
